@@ -54,7 +54,7 @@
       </div>
       <div class="feature-item">
         <h3>🛠 自訂常用車站</h3>
-        <p>可設定起訖車站，一鍵管理。</p>
+        <p>可自訂車站，接收專屬誤點通知。</p>
       </div>
       <div class="feature-item">
         <h3>📲 無需安裝 App</h3>
@@ -73,20 +73,30 @@
       <img src="assets/query.png" alt="查詢會員狀態畫面">
       <p class="note">查詢會員等級與組別示意</p>
     </section>
-
     <section class="faq">
       <h2>常見問題</h2>
       <details class="faq-item">
-        <summary>Q1：如何設定車站？</summary>
-        <p>A：輸入「設定1_板橋_17:57_平日」即可完成設定。</p>
+        <summary>Q1：如何設定與刪除提醒？</summary>
+        <p>設定提醒請依照以下格式輸入，例如：</p>
+        <ul>
+          <li>設定1_台北_17:00_1,3,5</li>
+          <li>設定2_台中_08:00_每天</li>
+          <li>設定3_高雄_09:00_週末</li>
+          <li>設定4_新竹_09:00_平日</li>
+        </ul>
+        <p>星期數字對應：0=週日, 1=週一, 2=週二, 3=週三, 4=週四, 5=週五, 6=週六</p>
+        <p>刪除提醒請輸入「刪除+設定編號」，例如「刪除1」。</p>
       </details>
+      
       <details class="faq-item">
         <summary>Q2：如何查詢目前狀態？</summary>
-        <p>A：輸入「查詢」即可查看會員等級與使用組別。</p>
+        <p>輸入「查詢」即可查看會員等級與使用組別。</p>
+        <p>或直接輸入車站名稱查詢該站誤點資訊。</p>
       </details>
+      
       <details class="faq-item">
         <summary>Q3：有額外費用嗎？</summary>
-        <p>A：本 Bot 完全免費，歡迎隨時使用。</p>
+        <p>目前本 Bot 完全免費，提供基本誤點通知功能。未來可能推出進階付費方案，但不影響現有免費用戶的使用權益。</p>
       </details>
     </section>
   </div>
